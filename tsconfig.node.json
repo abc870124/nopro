@@ -3,7 +3,9 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist", // Thêm thư mục đầu ra cho file biên dịch
+    "target": "ESNext"  // Thêm target để chỉ định phiên bản JavaScript
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "main.ts"]
 }
